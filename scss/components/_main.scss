@@ -56,6 +56,43 @@ body{
 }
 
 
+.sticker:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+}
+
+.nav li{
+		padding-top: 1.5em;
+		float: right;
+		display: inline-block;
+}
+
+a {
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	color: $blue;
+}
+
+.nav li :hover,
+.nav li :focus,
+.nav li :focus {
+    border-top: 4px solid $blue;
+    border-bottom:4px solid $blue;
+    width: 50px;
+		list-style: none;
+		text-decoration: none;
+    text-align: center;
+    align-content: center;
+    padding-top: .5em;
+    padding-bottom: .2em;
+}
+
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+
 @media only screen and (min-width: 60em){
 
 }

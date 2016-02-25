@@ -68,4 +68,53 @@ body {
           animation-play-state: paused;
 }
 
+.sticker:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.nav li {
+  padding-top: 1.5em;
+  float: right;
+  display: inline-block;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  color: #26bdd2;
+}
+
+.nav li :hover,
+.nav li :focus,
+.nav li :focus {
+  border-top: 4px solid #26bdd2;
+  border-bottom: 4px solid #26bdd2;
+  width: 50px;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  padding-top: .5em;
+  padding-bottom: .2em;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
