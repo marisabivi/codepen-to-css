@@ -23,6 +23,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: Arial, sans-serif;
 }
 
 *, *:before, *:after {
@@ -75,7 +76,8 @@ body {
 }
 
 .nav li {
-  padding-top: 1.5em;
+  padding-top: .5em;
+  font-size: 1.2em;
   float: right;
   display: inline-block;
 }
@@ -85,13 +87,14 @@ a {
   text-decoration: none;
   text-align: center;
   color: #26bdd2;
+  margin-right: 1em;
 }
 
 .nav li :hover,
 .nav li :focus,
 .nav li :focus {
-  border-top: 4px solid #26bdd2;
-  border-bottom: 4px solid #26bdd2;
+  border-top: 3px solid #26bdd2;
+  border-bottom: 3px solid #26bdd2;
   width: 50px;
   list-style: none;
   text-decoration: none;

@@ -10,6 +10,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	font-family: $type;
 }
 
 
@@ -62,7 +63,8 @@ body{
 }
 
 .nav li{
-		padding-top: 1.5em;
+		padding-top: .5em;
+		font-size: 1.2em;
 		float: right;
 		display: inline-block;
 }
@@ -72,13 +74,14 @@ a {
 	text-decoration: none;
 	text-align: center;
 	color: $blue;
+	margin-right: 1em;
 }
 
 .nav li :hover,
 .nav li :focus,
 .nav li :focus {
-    border-top: 4px solid $blue;
-    border-bottom:4px solid $blue;
+    border-top: 3px solid $blue;
+    border-bottom: 3px solid $blue;
     width: 50px;
 		list-style: none;
 		text-decoration: none;
